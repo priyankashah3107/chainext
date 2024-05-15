@@ -1,5 +1,6 @@
 import {FeatureCard } from "@/components/FeatureCard";
 import { FeatureCourses } from "@/components/FeatureCourses";
+import GridBackground from "@/components/GridBackground";
 import Hero from "@/components/Hero";
 
 export default function HomePage() {
@@ -11,6 +12,7 @@ export default function HomePage() {
         <Hero />
         <FeatureCard />
         <FeatureCourses />
+        <GridBackground />
       </main>
     </>
   )
