@@ -2,8 +2,12 @@ import Link from 'next/link'
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { Button } from './ui/moving-border'
+import { WavyBackground } from './ui/wavy-background'
+
+
 
 function Hero() {
+  
   return (
     <>
     

@@ -1,7 +1,10 @@
+import { BackgroundBeam } from "@/components/BackgroundBeam";
 import {FeatureCard } from "@/components/FeatureCard";
 import { FeatureCourses } from "@/components/FeatureCourses";
 import GridBackground from "@/components/GridBackground";
 import Hero from "@/components/Hero";
+import { WavyBackgroundDemo } from "@/components/WavyBackgroundDemo";
+
 
 export default function HomePage() {
   // bg-black/[0.96] 
@@ -13,6 +16,8 @@ export default function HomePage() {
         <FeatureCard />
         <FeatureCourses />
         <GridBackground />
+         <BackgroundBeam  />
+         {/* <WavyBackgroundDemo /> */}
       </main>
     </>
   )

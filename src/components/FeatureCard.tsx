@@ -18,41 +18,41 @@ export const projects = [
     description:
       "The piano is a versatile and iconic instrument known for its rich sound and expressive capabilities. From classical to contemporary music, the piano offers a wide range of tones and dynamics. ",
     link: "https://google.com",
-    click: "Learn More"
+    click: "Join Now"
   },
   {
     title: "Violin",
     description:
       "The violin is a timeless instrument that evokes emotion and beauty with its delicate tones and expressive melodies. Discover the art of bowing techniques, fingering positions, and vibrato to create captivating music.",
       link: "https://google.com",
-    click: "Learn More"
+      click: "Join Now"
   },
   {
     title: "Drums",
     description:
       "The drums are the heartbeat of any band, providing rhythm, energy, and dynamics to music. Explore the world of percussion, from basic beats and fills to advanced techniques like polyrhythms and drum solos. ",
     link: "https://google.com",
-    click: "Learn More"
+    click: "Join Now"
   },
   {
     title: "Guitar",
     description:
       "The guitar is one of the most popular instruments worldwide, beloved for its versatility and expressive potential. From strumming chords to shredding solos, the guitar offers a wide range of playing styles and techniques.",
       link: "https://google.com",
-    click: "Learn More"
+      click: "Join Now"
   },
   {
     title: "Flute",
     description:
       "The flute is a graceful and versatile instrument capable of producing a wide range of tones and melodies. Explore the world of woodwind instruments, from breath control and embouchure to fingering techniques and articulation.",
       link: "https://google.com",
-    click: "Learn More"
+      click: "Join Now"
   },
   {
     title: "Saxophone",
     description:
       "The saxophone is a bold and expressive instrument known for its smooth tones and dynamic range. From soulful jazz to energetic funk, the saxophone shines in a variety of musical genres. ",
       link: "https://google.com",
-    click: "Learn More"
+    click: "Join Now"
   },
 ];

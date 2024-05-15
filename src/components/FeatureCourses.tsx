@@ -34,7 +34,7 @@ export const FeatureCourses = () => {
        { 
          featureCard.map((course: Courses) => (
          
-            <div className="flex justify-center lg:w-[500px] lg:h-[600px]" key={course.id}>
+            <div className="flex justify-center lg:w-[500px] lg:h-[600px] h-[700px]" key={course.id}>
 
        <BackgroundGradient className='rounded-[22px] p-4 sm:p-10 bg-white dark:bg-zinc-900  '>
            <Image src={course.image} 
@@ -42,11 +42,11 @@ export const FeatureCourses = () => {
            height="300"
            width="300"
            className="object-contain "/>
-           <p>{course.title}</p>
-           <p>{course.description}</p>
+           <p className='text-xl font-semibold mt-2'>{course.title}</p>
+           <p className='text-base text-white/60'>{course.description}</p>
             
-            <div className='flex flex-row'>
-               <p>{course.price}</p>
+            <div className='flex flex-row mt-4 justify-around '>
+               <p> Price: "{course.price}"</p>
                <p>{course.instructor}</p>
             </div>
            <div className=''>
