@@ -45,11 +45,26 @@ export default function Navbar ({ className }: { className?: string }) {
             </ProductItem>
            </div>
           </MenuItem>
+          
+        
+          <MenuItem  setActive={setActive} active={active} item="Our Blogs" >
+            <div className="flex flex-col space-y-4 text-sm">
+
+            
+            <HoveredLink href="/courses">Blogs</HoveredLink>
+            <HoveredLink href="/courses">Basic Music Theory</HoveredLink>
+            <HoveredLink href="/courses">Advanced Composition</HoveredLink>
+            <HoveredLink href="/courses">Songwriting</HoveredLink>
+            <HoveredLink href="/courses">Music Production</HoveredLink>
+            </div>
+          </MenuItem>
+
+
            
-          <MenuItem setActive={setActive} active={active} item="Pricing">
+          <MenuItem setActive={setActive} active={active} item="Contact US">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
+            <HoveredLink href="/contact">Contact </HoveredLink>
+           
            
           </div>
         </MenuItem>

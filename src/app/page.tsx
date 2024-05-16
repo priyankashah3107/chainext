@@ -1,6 +1,7 @@
 import { BackgroundBeam } from "@/components/BackgroundBeam";
 import {FeatureCard } from "@/components/FeatureCard";
 import { FeatureCourses } from "@/components/FeatureCourses";
+import Footer from "@/components/Footer";
 import GridBackground from "@/components/GridBackground";
 import Hero from "@/components/Hero";
 import { WavyBackgroundDemo } from "@/components/WavyBackgroundDemo";
@@ -18,6 +19,7 @@ export default function HomePage() {
         <GridBackground />
          <BackgroundBeam  />
          {/* <WavyBackgroundDemo /> */}
+         <Footer />
       </main>
     </>
   )

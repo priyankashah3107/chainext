@@ -34,7 +34,7 @@ export const FeatureCourses = () => {
        { 
          featureCard.map((course: Courses) => (
          
-            <div className="flex justify-center lg:w-[500px] lg:h-[600px] h-[700px]" key={course.id}>
+            <div className="flex justify-center mx-10" key={course.id}>
 
        <BackgroundGradient className='rounded-[22px] p-4 sm:p-10 bg-white dark:bg-zinc-900  '>
            <Image src={course.image} 
