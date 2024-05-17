@@ -11,7 +11,7 @@ export function BackgroundBeam() {
         </h1>
         <p></p>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-        At Melody Grove Music Academy, we're committed to nurturing your musical talent and guiding you towards excellence. Our team of experienced instructors, state-of-the-art facilities, and comprehensive curriculum ensure that you receive the highest quality education tailored to your individual needs.
+        At Melody Grove Music Academy, we are committed to nurturing your musical talent and guiding you towards excellence. Our team of experienced instructors, state of the art facilities, and comprehensive curriculum ensure that you receive the highest quality education tailored to your individual needs.
         </p>
         <input
           type="text"

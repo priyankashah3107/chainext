@@ -81,24 +81,24 @@ export default function Footer() {
           <div className="">
             About Us
             {about.map((about, id) => (
-             <p className="text-base mt-4 font-['inter'] font-normal " key={about.id}>{about.aboutus}</p>
+             <p className="text-base mt-4 font-['inter'] font-normal " key={id}>{about.aboutus}</p>
             ))}
           </div>
             
             <div className='grid grid-cols-1 mt-4 md:mt-0'>Quick Links
                {QuickLinks.map((link, idx) => (
-                <div>
+              
                   <p className="font-['inter'] font-normal text-base " key={idx}>
                   {link.name}
                  </p>
-                </div>
+                
                  
                ))}
             </div>
 
-            <div className='grid grid-cols-1 mt-4 md:mt-0 lg:mt-0 md:mt-4'>Follow Us
+            <div className='grid grid-cols-1 mt-4  lg:mt-0 md:mt-4'>Follow Us
               {FollowUs.map((follow, idx) => (
-                 <p className="font-['inter'] font-normal text-base">
+                 <p className="font-['inter'] font-normal text-base" key={idx}>
                   {follow.name}
                  </p>
               ))}

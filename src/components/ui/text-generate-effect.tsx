@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
 import { cn } from "@/utils/cn";
-
+import Image from "next/image";
 export const TextGenerateEffect = ({
   words,
   className,
@@ -27,7 +27,7 @@ export const TextGenerateEffect = ({
         delay: stagger(0.2),
       }
     );
-  }, [scope.current]);
+  }, [ animate]);
 
   const renderWords = () => {
     return (
@@ -41,7 +41,7 @@ export const TextGenerateEffect = ({
               <div>
                 <h1 className="text-xl md:text-2xl mb-5 font-semibold">{item.heading}</h1>
                 <div>
-                  <img src={item.image} alt={item.word} />
+                  <Image src={item.image} alt={item.word} />
                 </div>
                 <p className="text-base font-normal font-['inter'] mt-10">{item.word}{" "}</p>
               </div>
